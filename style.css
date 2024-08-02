@@ -1,12 +1,8 @@
 /* utilities class for animtion */
 /* very important */
-/* .animate-1{
-    animation-delay:0.1s;
-} */
 .animate{
     animation-duration: 1s;
 }
-
 /* animate */
 /* duration--2s */
 .duration--2s{
@@ -45,19 +41,9 @@
     animation-direction: reverse;
 }
 /* animation */
-
 /* ============================ keyframes ============================ */
 @keyframes opacity--o {
-    0%,
-    10%,
-    20%,
-    30%,
-    40%,
-    50%,
-    60%,
-    70%,
-    80%,
-    90% {
+    0%,10%,20%,30%,40%,50%,60%,70%,80%,90% {
         opacity: 0;
     }
     100%{
@@ -116,4 +102,17 @@
     background-color: red;
     max-height: 70px;
     min-height: 60px;
+}
+
+.verticle-line{
+    border-right: 1px solid gray;
+}
+.img-div-main{
+    float: right;
+    width: 200px;
+    max-height: auto;
+    overflow: hidden;
+    margin: 1.5em 0 0.5em 1em;
+    position: relative;
+    z-index: 1;
 }
