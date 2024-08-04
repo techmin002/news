@@ -98,6 +98,37 @@
 }
 /* in from right */
 /* ============================ keyframes ============================ */
+
+/* paragraph texts classes */
+
+/* heading */
+.heading{
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading-2{
+    font-weight: bold;
+    font-size: large;
+}
+.heading-small{
+    font-size: small;
+    font-weight: bolder;
+}
+.names{
+    font-size: smaller;
+    color: grey;
+}
+
+.paragraph{
+    font-size: medium;
+    font-weight: 500;
+    }
+/*  */
+.main-column-2{
+    margin-top: 1rem;
+}
 .ad-region{
     background-color: red;
     max-height: 70px;
@@ -105,7 +136,8 @@
 }
 
 .verticle-line{
-    border-right: 1px solid gray;
+    border-right: 1px solid rgb(232, 226, 226);
+    padding-bottom: -10px;
 }
 .img-div-main{
     float: right;
@@ -115,4 +147,21 @@
     margin: 1.5em 0 0.5em 1em;
     position: relative;
     z-index: 1;
+}
+.border-bottom{
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+.link-color{
+    color: black;
+    background-color: none;
+}
+.text-name-विचार{
+    /* position: relative;
+    top: -21px;
+    left: 56px; */
+    font-size: x-small;
+}
+.strong-row2{
+    font-size: large;
 }
