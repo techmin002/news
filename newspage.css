@@ -1,0 +1,145 @@
+/* ====================Advertisement CSS==================== */
+.header-ads {
+    margin: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-ads img{
+    width: 100%;
+}
+
+.body-ads img{
+    width: 100%;
+}
+
+.aside-ads {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ====================Close the Advertisement CSS==================== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.news-page-section {
+    margin-top: 6rem;
+    padding: 0px 5rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-page {
+    width: 80%;
+}
+
+.news-page h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.news-page div p {
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+/* ====================Related News Section==================== */
+.related-news-section {
+    margin: 7rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.related-news-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.related-news {
+    border: 1px solid #dee2e6;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.related-news img {
+    width: 15rem;
+}
+
+.related-news h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.related-news p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #9d9d9d;
+}
+
+/* ====================Close the Related News Section==================== */
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 50%;
+    }
+
+    .news-page {
+        width: 80%;
+    }
+
+    .aside-ads div img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 40%;
+    }
+
+    .news-page {
+        width: 100%;
+    }
+
+    .ads {
+        display: none;
+    }
+
+    .news-page-section {
+        margin-top: 2rem;
+        padding: 0px 3rem;
+    }
+
+    .aside-ads{
+        display: none;
+    }
+
+    .related-news-section{
+        flex-direction: column;
+    }
+}
