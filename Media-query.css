@@ -1,0 +1,168 @@
+/* -----------------------for all use----------------------- */
+html {
+    font-size: 62.5%;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.heading-right {
+    position: relative;
+    top: 2.5rem;
+   
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(77, 9, 9);
+}
+
+.heading-2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.heading-small {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.paragraph-text {
+    font-size: 1.6rem;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.name {
+    font-size: .8rem;
+    font-size: bold;
+    opacity: 0.7;
+}
+
+.heading-link {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.text-name-विचार{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+/* ------------------------ For Ravi Div-------------- */
+.border-left {
+    border-right: 1px solid rgb(230, 224, 224);
+    margin-top: 0.2rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid grey;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.top-news-image {
+    float: right;
+    width: 20rem;
+    max-height: auto;
+    overflow: hidden;
+    margin: 1.5em 0 0.5em 1em;
+    position: relative;
+    z-index: 1;
+}
+
+/* share div */
+.buttons {
+    color: black;
+}
+
+.buttons:hover {
+    color: rgb(0, 21, 255);
+}
+
+/* ------------------------ For Ravi Div-------------- */
+/* ------------------------ News section division ------------- */
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link :hover {
+    color: rgb(33, 47, 209);
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    color: rgb(36, 79, 220) !important;
+    transition: all ease-in 300ms;
+}
+
+.stick {
+    position: sticky;
+    top: 0vh;
+}
+
+
+
+/* ====================Media Queries==================== */
+/* @media all and (max-width: 600px) {
+    body {
+      background-color: rgb(10, 183, 241) !important;
+    }
+
+    .heading{
+        font-size: 20.5rem !important;
+        font-weight: bolder;
+    }
+  } */
+
+@media (max-width: 920px) and (max-width:448px) {
+    .heading {
+        font-size: 60px !important;
+        background-color: brown !important;
+    }
+
+    .heading-small {
+        background-color: black;
+        font-size: 600px !important;
+    }
+
+}
+
+@media (max-width:992PX) and (min-width: 448px) {
+    .heading {
+        font-size: 4rem !important;
+        font-weight: bolder;
+    }
+
+    .heading-small {
+        font-size: 3.5rem;
+        font-weight: normal;
+    }
+
+    .heading-right {
+        font-size: 2.5rem;
+    }
+
+    .heading-2{
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+
+    .name{
+        font-size: 2rem;
+        opacity: 0.9;
+        font-weight: bold;
+    }
+
+    .paragraph-text {
+        font-size: 2rem !important;
+        text-align: justify;
+        font-weight: normal;
+    }
+}
